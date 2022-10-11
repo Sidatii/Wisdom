@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+li,
+a,
+button {
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #DDDDDD;
+    text-decoration: none;
+    align-items: left;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 50px;
+    align-items: left;
+    /* margin-left: 100px; */
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links {
+    display: flex;
+    gap: 70px;
+
+    color: #003333;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+}
+
+.nav_links li a:hover {
+    color: #ffffff;
+}
+
+.signin ,.join {
+    padding: 5px 15px;
+    color: #003333 !important;
+    background-color: rgb(221, 221, 221);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.join:hover ,.signin:hover {
+    background-color: rgba(221, 221, 221, 0.747);
+
+}
+
+body {
+    background-image: linear-gradient(90deg, #003333, #ffffff00), url("imgs/background.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: rgba(221, 221, 221, 0.533);
+    font-family: "Cairo", sans-serif;
+    font-size: 13;
+    line-height: 1.3;
+
+}
+
+h2{
+    color: rgba(221, 221, 221, 0.425);
+    font-family: "Cairo", sans-serif;
+    font-size: 15px;
+}
+
+.home_text {
+    display: flex;
+    flex-direction: column;
+    inline-size: 570px;
+    overflow-wrap: break-word;
+    margin-left: 5%;
+    margin-top: 7%;
+    height: fit-content;
+    gap: 7px;
+}
+.join {
+    width: fit-content;
+    
+}
