@@ -113,6 +113,39 @@ h2{
     font-size: 15px;
 }
 
+.square{
+    height: 500px;
+    width: 400px;
+    background-color: #DDDDDD;
+    border-radius: 30px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+}
+.content{
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+    display: block;
+    margin: 30px 20px;
+    
+}
+
+.input{
+    padding: 10px;
+    margin: 20px 20px;
+    display: block;
+    colo : #003333;
+    border-radius: 1000px;
+
+}
+
+/* div {
+    padding: 100px;
+    align-self: center;
+
+} */
+
 
 .join {
     width: fit-content;
