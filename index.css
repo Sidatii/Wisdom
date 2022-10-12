@@ -186,7 +186,6 @@ h2{
     body {
         height:100vh;
         width:100vw;
-        backg
         background-image: linear-gradient(90deg, #003333, #ffffff04), url("imgs/mobile_bg.jpg") cover;
     }
 
