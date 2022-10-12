@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wisdom-Home</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/f2acd83396.js" crossorigin="anonymous"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wisdom-Home</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/f2acd83396.js"
+            crossorigin="anonymous"></script>
 
-</head>
+    </head>
 
-<body>
-    <header>
-        <img class="logo" src="imgs/widsom_logo.svg" height="40px" alt="Logo">
+    <body>
+        <header>
+            <img class="logo" src="imgs/widsom_logo.svg" height="40px"
+                alt="Logo">
 
-        <nav>
-            <ul class="nav_links">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a class="signin" href="#">Sign in</a></li>
-            </ul>
-        </nav>
-    </header>
+            <nav>
+                <ul class="nav_links">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a class="signin" href="#">Sign in</a></li>
+                </ul>
+            </nav>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/About">About</a></li>
+                    <li><a href="/community">Community</a></li>
+                    <li><a href="/signin">Sign in</a></li>
 
-    <div class="home_text">
-        <h1>All wisdom you can get is gathered here.
-            Allow yourself to be part
-            of the wisdom community</h1>
-        <h2>Wisdom is a community that can help you overcome difficult
-            challenges through experience based advices.</h2>
-        <a class="join">Join the community <i class="fa-solid fa-play"></i></a>
-    </div>
+                </ul>
+            </div>
+        </header>
+        <div class="home_text">
+            <h1>All wisdom you can get is gathered here.
+                Allow yourself to be part
+                of the wisdom community</h1>
+            <h2>Wisdom is a community that can help you overcome difficult
+                challenges through experience based advices.</h2>
+            <a class="join">Join the community <i class="fa-solid fa-play"></i></a>
+        </div>
 
 
-</body>
+
+    </body>
 
 </html>

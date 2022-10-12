@@ -24,6 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
+    background: linear-gradient(180deg, #003333, #ffffff04);
 }
 
 .logo {
@@ -117,4 +118,92 @@ h2{
     width: fit-content;
     border-raduis: 20px;
     
+}
+
+#hamburger-icon{
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div{
+    width: 35px;
+    height: 3px;
+    background-color: #DDDDDD;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1{
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2{
+    opacity: 0;
+}
+
+.open .bar3{
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mobile-menu{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+.mobile-menu li{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 730px){
+    .nav_links {
+            display: flex;
+            margin: 0px 10px;
+            padding: 5px 2px;
+            font-size: 7px;
+            transition: all 300ms linear;
+            list-style: none;
+            color: #003333;
+            margin: 0px 20px;
+        }
+}
+
+@media (max-width: 730px){
+
+    body {
+        height:100vh;
+        width:100vw;
+        backg
+        background-image: linear-gradient(90deg, #003333, #ffffff04), url("imgs/mobile_bg.jpg") cover;
+    }
+
+
+    .logo {
+        cursor: pointer;
+        height: 35px;
+        align-items: left;
+    }
+
+    .nav_links {
+        display: none;
+        
+    }
+
+    #hamburger-icon{
+        display: block;
+    }
+
 }
